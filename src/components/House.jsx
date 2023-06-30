@@ -8,6 +8,8 @@ import K3 from '../assets/spaceIcon.png'
 
 function House({img, price, address, bedrooms, bathrooms, space}) {
   const HouseBox = styled(Box)(({theme}) => ({
+    borderTopLeftRadius: '10px',
+    borderTopRightRadius: '10px',
     maxWidth: 350,
     backgroundColor: '#fff',
     margin: theme.spacing(0, 2, 0, 2),
