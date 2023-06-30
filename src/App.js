@@ -6,6 +6,8 @@ import Companies from './components/Companies';
 import Guide from './components/Guide';
 import Properties from './components/Properties';
 import Details from './components/Details';
+import GetStarted from './components/GetStarted';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -15,6 +17,8 @@ function App() {
 			<Guide />
 			<Properties />
 			<Details />
+			<GetStarted />
+			<Footer />
 		</>
 	);
 }
